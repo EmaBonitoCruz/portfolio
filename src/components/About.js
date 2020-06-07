@@ -4,7 +4,7 @@ import ProfileImg from "../assets/img/profilefoto.png";
 
 export default function About() {
   return (
-    <div id="container-about" className="container-about">
+    <div id="container-about" className="container">
       <div className="title">
         <p>ABOUT</p>
       </div>
