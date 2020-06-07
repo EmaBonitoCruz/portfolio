@@ -1,22 +1,33 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+
+// components
+import LandingPage from "./components/LandingPage";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Olá ema</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <LandingPage />
+      <div className="container-static">
+        <div className="logo-top">
+          {/* inserir logo */}
+          <p>bonito.</p>
+        </div>
+        <div id="container-content" className="container-content">
+          <div className="container-components">
+            <About />
+            <Projects />
+            <div id="test-scroll"></div>
+          </div>
+          <div className="right-navigation">
+            <a href="#container-about" className="dot"></a>
+            <a href="#projects" className="dot"></a>
+            <a href="#test-scroll" className="dot"></a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
