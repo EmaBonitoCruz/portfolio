@@ -8,46 +8,75 @@ import Mpc from "../assets/img/mpc.png";
 
 export default function Projects() {
   return (
-    <div id="projects" className="container">
-      <div className="title">
-        <p>PROJECTS</p>
+    <div id="webprojects" className="container container-100">
+      <div className="container-title">
+        <p className="title">WEB.PROJECTS</p>
       </div>
-      <marquee
+      <div
         className="projects-img"
-        behavior="scroll"
-        direction="left"
-        scrollamount="10"
-        loop="infinite"
+        // behavior="scroll"
+        // direction="left"
+        // scrollamount="10"
+        // loop="infinite"
       >
         <div className="container-project">
-          <a>
+          <a href="https://monstera-b638a.firebaseapp.com/" target="_blank">
             <img className="browser" src={Monstera} />
-            <p className="project-description">
-              Monstera is a plant research platform, buit for plant lovers.
-            </p>
+            <div className="project-description monstera">
+              <p>
+                Monstera is a plant research platform, buit for plant lovers,
+                allowing them to search for species, learn about them and add
+                them to a collection.
+              </p>
+            </div>
           </a>
         </div>
         <div className="container-project">
           <a>
             <img src={Beeogarden} />
+            <div className="project-description beeogarden">
+              <p>
+                Beeogarden is a platform dedicated to helping to save the bees.
+                It is a community of people connected by gardens.
+              </p>
+            </div>
           </a>
         </div>
         <div className="container-project">
           <a>
             <img className="browser" src={Bits} />
+            <div className="project-description bits">
+              <p>
+                8 Bits of Portugal aims to tell a story about some of the most
+                iconic places of the country, taking the user in a pixelated
+                trip.
+              </p>
+            </div>
           </a>
         </div>
         <div className="container-project">
           <a>
             <img src={Mpc} />
+            <div className="project-description mpc">
+              <p>
+                Musical Practice Companion is a study helper app, developed for
+                music students.
+              </p>
+            </div>
           </a>
         </div>
         <div className="container-project">
-          <a>
+          <a href="https://jogosdohelder.pt" target="_blank">
             <img className="browser" src={Helder} />
+            <div className="project-description helder">
+              <p>
+                This project consists in the creation of a digital platform for
+                the business "Jogos do Helder".
+              </p>
+            </div>
           </a>
         </div>
-      </marquee>
+      </div>
     </div>
   );
 }

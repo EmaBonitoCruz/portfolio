@@ -5,6 +5,9 @@ import "./App.css";
 import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Animation from "./components/Animation";
+import Photography from "./components/Photography";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -19,12 +22,16 @@ function App() {
           <div className="container-components">
             <About />
             <Projects />
-            <div id="test-scroll"></div>
+            <Animation />
+            <Photography/>
+            <Contacts/>
           </div>
           <div className="right-navigation">
             <a href="#container-about" className="dot"></a>
-            <a href="#projects" className="dot"></a>
-            <a href="#test-scroll" className="dot"></a>
+            <a href="#webprojects" className="dot"></a>
+            <a href="#animation" className="dot"></a>
+            <a href="#photography" className="dot"></a>
+            <a href="#contacts" className="dot"></a>
           </div>
         </div>
       </div>

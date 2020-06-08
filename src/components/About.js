@@ -5,8 +5,8 @@ import ProfileImg from "../assets/img/profilefoto.png";
 export default function About() {
   return (
     <div id="container-about" className="container">
-      <div className="title">
-        <p>ABOUT</p>
+      <div className="container-title">
+        <p className="title">ABOUT</p>
       </div>
       <div className="about-content">
         <div>
@@ -31,18 +31,18 @@ export default function About() {
             <p>I've made projects in the areas of:</p>
           </div>
           <div className="container-boxes">
-            <div className="moving-box">
+            <a href="#webprojects" className="moving-box">
               <p>web design</p>
-            </div>
-            <div className="moving-box">
+            </a>
+            <a href="#webprojects" className="moving-box">
               <p>web development</p>
-            </div>
-            <div className="moving-box">
+            </a>
+            <a href="#animation" className="moving-box">
               <p>animation</p>
-            </div>
-            <div className="moving-box">
+            </a>
+            <a href="#photography" className="moving-box">
               <p>photography</p>
-            </div>
+            </a>
             <div className="moving-box">
               <p>image montage</p>
             </div>
