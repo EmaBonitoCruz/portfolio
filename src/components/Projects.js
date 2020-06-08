@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Radium from 'radium';
+
 import Monstera from "../assets/img/monstera.png";
 import Bits from "../assets/img/8bits.png";
 import Beeogarden from "../assets/img/beeogarden.png";
@@ -7,9 +9,6 @@ import Helder from "../assets/img/helder.png";
 import Mpc from "../assets/img/mpc.png";
 
 export default function Projects({ theme }) {
-  const scrollbar={
-    '::webkit-'
-  }
   return (
     <div id="webprojects" className="container container-100">
       <div className="container-title">
