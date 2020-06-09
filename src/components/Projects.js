@@ -112,7 +112,7 @@ export default function Projects({ theme }) {
           </a>
         </div>
         <div className="container-project">
-          <a>
+          <a href="https://emabonitocruz.github.io/8bitsofportugal/examples/" target="_blank">
             <img className="browser" src={Bits} />
             <div
               style={

@@ -242,8 +242,16 @@ export default function About({ theme }) {
               </span>
             </a>
           </div>
-          {/* <div className="container-boxes">
-          </div> */}
+          <div className="block-text right">
+            <p>check my work.</p>
+            <p>check my work.</p>
+            <p>check my work.</p>
+            <p>check my work.</p>
+            <p>check my work.</p>
+            <p>check my work.</p>
+            <p>check my work.</p>
+            <p>check my work.</p>
+          </div>
         </div>
       </div>
     </div>

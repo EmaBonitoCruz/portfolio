@@ -374,6 +374,14 @@ body::-webkit-scrollbar {
   animation: vibrate-1 0.3s linear infinite both;
 }
 
+.right {
+  right: 0;
+  bottom: 8rem;
+  font-size: 1.2rem;
+  -webkit-text-stroke: 1px var(--dark-color);
+  color: rgba(0, 0, 0, 0) !important;
+}
+
 @keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
