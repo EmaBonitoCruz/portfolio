@@ -22,10 +22,6 @@
   --dark-color: #514e5b;
 }
 
-* {
-  cursor: url(./assets/img/cursor/circle.png) 2 2, auto;
-}
-
 .main {
   width: 100vw;
   background: var(--light-color);
@@ -55,13 +51,13 @@ body::-webkit-scrollbar {
 
 .container-arrow:hover .arrow {
   animation-play-state: paused;
-  border-color: var(--light-color);
+  border-color: var(--dark-color);
   /* transform: scaleX(3.5); */
   /* border-width: 0 4px 4px 0; */
 }
 
 .arrow {
-  border: solid var(--dark-color);
+  border: solid var(--light-color);
   height: 30px;
   width: 30px;
   border-width: 0 3px 3px 0;
